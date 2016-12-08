@@ -46,11 +46,11 @@ INSERT INTO book (amount, description, isbn, name, "section") VALUES
 ```
 
 #Active MQ info 
-broker -> tcp://localhost:61616
-queue name --> distributor-inbox
-more details in application.properties files (producer and consumer projects)
+* broker -> tcp://localhost:61616
+* queue name --> distributor-inbox
+* more details in application.properties files (producer and consumer projects)
 
 #Postgress info
-database name --> biblio-distributor
-port --> 5432
-more details in application.properties file (consumer project)
+* database name --> biblio-distributor
+* port --> 5432
+* more details in application.properties file (consumer project)
