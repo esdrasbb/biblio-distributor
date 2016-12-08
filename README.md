@@ -33,6 +33,7 @@ Graduation project
     }
   ]
 }
+```
 
 #Initial DB query
 ```sql
@@ -42,6 +43,7 @@ INSERT INTO book (amount, description, isbn, name, "section") VALUES
 (10, 'Livro 3', 789, 'Livro 3', 'Romance'),
 (1, 'Livro 4', 12, 'Livro 4', 'Literatura'),
 (40, 'Livro 5', 345, 'Livro 5', 'Aventura');
+```
 
 #Active MQ info 
 broker -> tcp://localhost:61616
