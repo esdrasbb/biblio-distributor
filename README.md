@@ -5,9 +5,12 @@ Graduation project
 - Spring boot
 - ActiveMQ
 - Postgres
-
+- Spring Data 
+- JMS 
+- JPA
 
 #Request example
+```javascript
 {
   "clientId": 12345,
   "callBackUrl": "http://localhost:8080/biblio/ordercallback",
@@ -32,6 +35,7 @@ Graduation project
 }
 
 #Initial DB query
+```sql
 INSERT INTO book (amount, description, isbn, name, "section") VALUES
 (100, 'Livro 1', 123, 'Livro 1', 'Literatura'),
 (500, 'Livro 2', 456, 'Livro 2', 'Aventura'),
